@@ -12,41 +12,41 @@ print(changed_list)
 
 
 
-nums = (10, 20, 30, 40)
-nums[1]
-20
-nums[:]
-(10, 20, 30, 40)
-nums[1:]
-(20, 30, 40)
-5 in nums
-False
-nums.index(30)
-2
-some_list = [1, 1, 1]
-some_tuple = tuple(some_list)
-some_tuple
-(1, 1, 1)
+# nums = (10, 20, 30, 40)
+# nums[1]
+# 20
+# nums[:]
+# (10, 20, 30, 40)
+# nums[1:]
+# (20, 30, 40)
+# 5 in nums
+# False
+# nums.index(30)
+# 2
+# some_list = [1, 1, 1]
+# some_tuple = tuple(some_list)
+# some_tuple
+# (1, 1, 1)
 
 
 
-
-def get_user():
-    name = 'Bob'
-    surname ='Ivanov'
-    age = 20
-    return name, surname, age
-user = get_user()
-user
-('Bob', 'Ivanov', 20)
-
-
-
-('Vova', 'Petrov', 25)
-name, surname, age = user
-name
-'Vova'
-surname
-'Petrov'
-age
-25
+#
+# def get_user():
+#     name = 'Bob'
+#     surname ='Ivanov'
+#     age = 20
+#     return name, surname, age
+# user = get_user()
+# user
+# ('Bob', 'Ivanov', 20)
+#
+#
+#
+# ('Vova', 'Petrov', 25)
+# name, surname, age = user
+# name
+# 'Vova'
+# surname
+# 'Petrov'
+# age
+# 25

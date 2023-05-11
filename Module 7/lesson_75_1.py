@@ -7,9 +7,9 @@ data = {
 }
 number = int(input('Введите номер паспорта: '))
 number_pass = int(input('Введите серию паспорта: '))
-for i_pass, j_pass in data.items():
-    if (number, number_pass) in (i_pass, j_pass):
-        print(data[j_pass])
-    else:
-        print('В данных отсутствует аналогичные записи!')
+
+if (number, number_pass) in data:
+    print(data[number, number_pass])
+else:
+    print('В данных отсутствует аналогичные записи!')
     # if (number,number_pass) in data.items():
